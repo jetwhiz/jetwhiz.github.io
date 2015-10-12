@@ -116,7 +116,7 @@ var RichTextArea = {
                 
                 // Generate the toolbar (above the iframe)
                 var ulist = document.createElement('ul');
-                ulist.setAttribute("style", "margin: 2px; padding: 15px; list-style-type: none;");
+                ulist.setAttribute("style", "margin: 2px; padding: 0px; list-style-type: none;");
                 
                 for ( var i = 0, j = RichTextAreaToolbar.icons.length; i < j; ++i ) {
                     var li = document.createElement('li');
